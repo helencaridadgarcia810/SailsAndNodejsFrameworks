@@ -1,0 +1,106 @@
+{
+  "data": {
+    "book": [
+      {
+        "createdAt": "2016-03-09T20:18:41.517Z",
+        "updatedAt": "2016-03-09T20:18:41.517Z",
+        "id": 1
+      }
+    ],
+    "todo": [
+      {
+        "value": "ftyyyy",
+        "createdAt": "2016-03-10T00:47:10.442Z",
+        "updatedAt": "2016-03-10T00:47:10.442Z",
+        "id": 18
+      },
+      {
+        "value": "ftyyyy",
+        "createdAt": "2016-03-10T00:47:21.393Z",
+        "updatedAt": "2016-03-10T00:47:21.393Z",
+        "id": 19
+      }
+    ],
+    "user": [
+      {
+        "name": "John Smith",
+        "createdAt": "2016-03-10T18:10:50.171Z",
+        "updatedAt": "2016-03-10T18:10:50.171Z",
+        "id": 1
+      },
+      {
+        "firstName": "pepe",
+        "lastName": "gugu",
+        "createdAt": "2016-03-10T18:41:16.124Z",
+        "updatedAt": "2016-03-10T18:41:16.124Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "book": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "todo": {
+      "value": {
+        "type": "text"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "firstName": {
+        "type": "string",
+        "size": 128
+      },
+      "lastName": {
+        "type": "string",
+        "size": 128
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "book": {
+      "id": 1
+    },
+    "user": {
+      "id": 2
+    },
+    "todo": {
+      "id": 19
+    }
+  }
+}

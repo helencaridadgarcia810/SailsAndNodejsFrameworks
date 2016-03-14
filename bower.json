@@ -1,0 +1,30 @@
+{
+  "name": "demosails",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "lago"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.5.0"
+  },
+  "dependencies": {
+    "angular-bootstrap": "~0.14.3",
+    "angular-moment": "~0.10.3",
+    "angular-route": "~1.5.0",
+    "angular": "1.5.0",
+    "angular-mocks": "~1.4.8"
+  }
+}
