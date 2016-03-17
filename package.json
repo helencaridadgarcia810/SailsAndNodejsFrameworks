@@ -36,5 +36,8 @@
     "url": "git://github.com/helen/demosails.git"
   },
   "author": "helen",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "protractor-cucumber": "^0.1.8"
+  }
 }
