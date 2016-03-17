@@ -7,16 +7,16 @@ Install npm package to dev dependencies
 
 ``` npm install ```
 
-#### Start sails server
+## Start sails server
 
-    ``` sails lift ```
+``` sails lift ```
 
-#### Run cucumber test
+## Run cucumber test
 
-  #### Start Selenium
+### Start Selenium
 
-  ``` webdriver-manager start ```
+``` webdriver-manager start ```
 
-  Now run cucumber:
+###Now run cucumber:
 
-  ``` cucumber.js ```
+``` cucumber.js ```
